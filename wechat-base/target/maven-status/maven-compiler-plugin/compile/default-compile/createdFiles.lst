@@ -1,0 +1,6 @@
+com\lz\wechat\base\manager\AccountManager.class
+com\lz\wechat\base\dao\impl\AccountDao.class
+com\lz\wechat\test\TestMybatis.class
+com\lz\wechat\test\SpringTest.class
+com\lz\wechat\base\manager\impl\AccountManagerImpl.class
+com\lz\wechat\base\model\dataobject\AccountDO.class
