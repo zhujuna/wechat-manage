@@ -14,9 +14,16 @@
 	http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <!--开启注解的扫描，希望处理service和dao，controller不需要Spring框架去处理-->
-    <context:component-scan base-package="com.lz" >
+    <context:component-scan base-package="com.lz.wechat.controller" >
         <!--配置哪些注解不扫描-->
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
     </context:component-scan>
+
+
+    <import resource="classpath:META-INF/application-context-server.xml"/>
+    <import resource="spring-web.xml"/>
+
+
+
 
 </beans>
