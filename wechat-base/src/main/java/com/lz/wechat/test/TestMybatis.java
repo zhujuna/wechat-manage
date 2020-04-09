@@ -17,7 +17,7 @@ public class TestMybatis {
     @Test
     public void run1() throws IOException {
         AccountDO account =new AccountDO();
-        account.setName("杜永蓝");
+        account.setName("杜永蓝23");
         account.setMoney(200d);
         // 加载配置文件
         InputStream in = Resources.getResourceAsStream("SqlMapConfig.xml");

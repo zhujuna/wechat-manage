@@ -10,7 +10,7 @@ public class SpringTest {
     @Test
     public void run1(){
 
-        ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
+        ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:application-context-base.xml");
         AccountService as = (AccountService) ac.getBean("accountService");
         as.findAll();
     }
